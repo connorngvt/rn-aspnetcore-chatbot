@@ -9,16 +9,8 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-  // const [authorized, setAuthorized] = useState(false);
-
-  // const handleAuthorization = (status) => {
-  //   setAuthorized(status);
-  // };
 
   return (
-    // <View style={styles.container}>
-    //   {authorized ? <Chatbot /> : <LoginPage onLogin={handleAuthorization} />}
-    // </View>
     <NavigationContainer>
       <Stack.Navigator initialRouteName="LoginPage">
         <Stack.Screen name="LoginPage" component={LoginPage} options={{ headerShown: false }}/>
