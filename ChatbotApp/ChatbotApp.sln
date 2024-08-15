@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{F70C6A1F-4ED3-43D2-8FAD-3B539F0A4847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationApi", "backend\AuthorizationApi\AuthorizationApi.csproj", "{35286FE8-25D8-46AD-A12F-EBFDC87EBA2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAIApi", "backend\OpenAIApi\OpenAIApi.csproj", "{B2FC796A-FC07-42F0-80FC-C47F5E7F706E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35286FE8-25D8-46AD-A12F-EBFDC87EBA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35286FE8-25D8-46AD-A12F-EBFDC87EBA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35286FE8-25D8-46AD-A12F-EBFDC87EBA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35286FE8-25D8-46AD-A12F-EBFDC87EBA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2FC796A-FC07-42F0-80FC-C47F5E7F706E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2FC796A-FC07-42F0-80FC-C47F5E7F706E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2FC796A-FC07-42F0-80FC-C47F5E7F706E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2FC796A-FC07-42F0-80FC-C47F5E7F706E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35286FE8-25D8-46AD-A12F-EBFDC87EBA2E} = {F70C6A1F-4ED3-43D2-8FAD-3B539F0A4847}
+		{B2FC796A-FC07-42F0-80FC-C47F5E7F706E} = {F70C6A1F-4ED3-43D2-8FAD-3B539F0A4847}
+	EndGlobalSection
+EndGlobal
